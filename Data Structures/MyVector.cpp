@@ -1,6 +1,21 @@
 #include "MyVector.h"
+#include <iostream>
 
-MyVector::MyVector(int size)
+MyVector::MyVector(size_t vectorLength)
 {
-	length = size;
+	length = vectorLength;
+}
+
+void MyVector::resizeArray(int** array, size_t sizeChange, bool increaseSize)
+{
+	if (!increaseSize)
+	{
+		length -= sizeChange;
+	}
+	else
+	{
+		length += sizeChange;
+	}
+
+	*array = (int*)realloc(*array, length * sizeof(int));
 }

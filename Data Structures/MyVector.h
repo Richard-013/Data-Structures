@@ -1,11 +1,17 @@
 #pragma once
+
+#include <cstdlib>
+
 class MyVector
 {
 public:
-	// int baseArray[1];
-	MyVector(int size);
+	int* baseArray = (int*) std::malloc(sizeof(int) * 1);
+
+	MyVector(size_t vectorLength);
 
 private:
-	int length;
+	size_t length;
+
+	void resizeArray(int** array, size_t sizeChange, bool increaseSize);
 };
 
