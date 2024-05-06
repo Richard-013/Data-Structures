@@ -8,6 +8,8 @@ public:
 	int* baseArray = (int*) std::malloc(sizeof(int) * 1);
 
 	MyVector(size_t vectorLength);
+	void printVector();
+	size_t getSize();
 
 private:
 	size_t length;
