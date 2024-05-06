@@ -3,7 +3,7 @@
 
 int main()
 {
-	MyVector vector1 = MyVector(3);
+	MyVector vector1 = MyVector(8);
 	vector1.printVector();
 
 	return 0;
