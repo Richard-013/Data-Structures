@@ -3,7 +3,8 @@
 
 int main()
 {
-	std::cout << "Hello World!" << std::endl;
+	MyVector vector1 = MyVector(3);
+	vector1.printVector();
 
 	return 0;
 }
