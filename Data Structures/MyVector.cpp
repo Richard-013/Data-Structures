@@ -12,6 +12,7 @@ MyVector::MyVector(size_t vectorLength)
 
 	setStart(&baseArray);
 
+	//setValueAtIndex(24, 2);
 }
 
 void MyVector::printVector()
@@ -58,4 +59,14 @@ void MyVector::setStart(int** array)
 	start = *array;
 }
 
+void MyVector::setValueAtIndex(int value, int index)
+{
+	int* indexPointer = start;
+
+	for (int i = 0; i < index; i++)
+	{
+		indexPointer++;
+	}
+
+	*indexPointer = value;
 }
