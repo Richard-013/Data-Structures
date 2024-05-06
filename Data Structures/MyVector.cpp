@@ -10,13 +10,15 @@ MyVector::MyVector(size_t vectorLength)
 		createVector(&baseArray);
 	}
 
+	setStart(&baseArray);
+
 }
 
 void MyVector::printVector()
 {
 	for (int i = 0; i < length; i++)
 	{
-		std::cout << baseArray[i];
+		std::cout << "Element " << i << ": " << baseArray[i];
 
 		if (i + 1 < length)
 		{
@@ -49,6 +51,11 @@ void MyVector::resizeVector(int** array, size_t sizeChange, bool increaseSize)
 	}
 
 	*array = (int*) realloc(*array, length * sizeof(int));
+}
+
+void MyVector::setStart(int** array)
+{
+	start = *array;
 }
 
 }
