@@ -79,6 +79,12 @@ void MyVector::setValueAtIndex(int value, int index)
 
 	for (int i = 0; i < index; i++)
 	{
+		if (i == length)
+		{
+			// Throw an error if pointer leaves the acceptable range
+			throw std::out_of_range("Index out of range");
+		}
+
 		indexPointer++;
 	}
 
