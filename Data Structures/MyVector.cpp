@@ -4,19 +4,18 @@
 MyVector::MyVector(size_t vectorLength)
 {
 	length = vectorLength;
+	updateCapacity();
 
-	if (length != 1)
-	{
-		createVector(&baseArray);
-	}
+	createVector(&baseArray);
 
 	setStart(&baseArray);
-
-	//setValueAtIndex(24, 2);
 }
 
 void MyVector::printVector()
 {
+	std::cout << "Length: " << length << std::endl;
+	std::cout << "Capacity: " << capacity << std::endl;
+
 	for (int i = 0; i < length; i++)
 	{
 		std::cout << "Element " << i << ": " << baseArray[i];
@@ -35,9 +34,24 @@ size_t MyVector::getSize()
 	return length;
 }
 
+bool MyVector::updateCapacity()
+{
+	if (length < capacity / 2)
+	{
+		return false;
+	}
+
+	while (length >= capacity / 2)
+	{
+		capacity = capacity * 2;
+	}
+
+	return true;
+}
+
 void MyVector::createVector(int** array)
 {
-	*array = (int*)realloc(*array, length * sizeof(int));
+	*array = (int*)realloc(*array, capacity * sizeof(int));
 }
 
 void MyVector::resizeVector(int** array, size_t sizeChange, bool increaseSize)
@@ -51,7 +65,7 @@ void MyVector::resizeVector(int** array, size_t sizeChange, bool increaseSize)
 		length += sizeChange;
 	}
 
-	*array = (int*) realloc(*array, length * sizeof(int));
+	*array = (int*)realloc(*array, length * sizeof(int));
 }
 
 void MyVector::setStart(int** array)

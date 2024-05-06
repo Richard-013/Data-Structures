@@ -14,7 +14,9 @@ public:
 
 private:
 	size_t length;
+	size_t capacity = 16;
 
+	bool updateCapacity();
 	void createVector(int** array);
 	void resizeVector(int** array, size_t sizeChange, bool increaseSize);
 	void setStart(int** array);
