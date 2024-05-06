@@ -15,5 +15,7 @@ private:
 	size_t length;
 
 	void resizeArray(int** array, size_t sizeChange, bool increaseSize);
+	void createVector(int** array);
+	void resizeVector(int** array, size_t sizeChange, bool increaseSize);
 };
 

@@ -4,6 +4,12 @@
 MyVector::MyVector(size_t vectorLength)
 {
 	length = vectorLength;
+
+	if (length != 1)
+	{
+		createVector(&baseArray);
+	}
+
 }
 
 void MyVector::printVector()
@@ -26,7 +32,12 @@ size_t MyVector::getSize()
 	return length;
 }
 
-void MyVector::resizeArray(int** array, size_t sizeChange, bool increaseSize)
+void MyVector::createVector(int** array)
+{
+	*array = (int*)realloc(*array, length * sizeof(int));
+}
+
+void MyVector::resizeVector(int** array, size_t sizeChange, bool increaseSize)
 {
 	if (!increaseSize)
 	{
@@ -37,5 +48,7 @@ void MyVector::resizeArray(int** array, size_t sizeChange, bool increaseSize)
 		length += sizeChange;
 	}
 
-	*array = (int*)realloc(*array, length * sizeof(int));
+	*array = (int*) realloc(*array, length * sizeof(int));
+}
+
 }
