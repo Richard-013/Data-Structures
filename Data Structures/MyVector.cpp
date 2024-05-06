@@ -34,6 +34,11 @@ size_t MyVector::getSize()
 	return length;
 }
 
+bool MyVector::isEmpty()
+{
+	return true;
+}
+
 bool MyVector::updateCapacity()
 {
 	if (length < capacity / 2)
