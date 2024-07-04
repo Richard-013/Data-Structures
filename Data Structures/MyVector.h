@@ -11,7 +11,7 @@ public:
 	MyVector(size_t vectorLength);
 	void printVector();
 	size_t getSize();
-	bool isEmpty();
+	int getValueAtIndex(int index);
 
 private:
 	size_t length;

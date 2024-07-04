@@ -34,11 +34,6 @@ size_t MyVector::getSize()
 	return length;
 }
 
-bool MyVector::isEmpty()
-{
-	return true;
-}
-
 bool MyVector::updateCapacity()
 {
 	if (length < capacity / 2)
@@ -94,4 +89,24 @@ void MyVector::setValueAtIndex(int value, int index)
 	}
 
 	*indexPointer = value;
+}
+
+int MyVector::getValueAtIndex(int index)
+{
+	if (index < 0 || index > length - 1)
+	{
+		// Throw an error when trying to access an index outside of the current vector
+		throw std::out_of_range("Index out of range");
+	}
+
+	int* indexPointer = start;
+
+	if (index == 0)
+	{
+		return *start;
+	}
+
+	indexPointer = indexPointer + index;
+
+	return *indexPointer;
 }
