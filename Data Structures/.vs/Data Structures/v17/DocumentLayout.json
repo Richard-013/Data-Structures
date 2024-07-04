@@ -3,16 +3,16 @@
   "WorkspaceRootPath": "C:\\Users\\Richard Horton\\Documents\\GitHub\\Data-Structures\\Data Structures\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{1BB904F1-331A-4FAA-8A4B-4CFC23CB9C12}|Data Structures.vcxproj|C:\\Users\\Richard Horton\\Documents\\GitHub\\Data-Structures\\Data Structures\\MyVector.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{1BB904F1-331A-4FAA-8A4B-4CFC23CB9C12}|Data Structures.vcxproj|solutionrelative:MyVector.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+      "AbsoluteMoniker": "D:0:0:{1BB904F1-331A-4FAA-8A4B-4CFC23CB9C12}|Data Structures.vcxproj|C:\\Users\\Richard Horton\\Documents\\GitHub\\Data-Structures\\Data Structures\\Main.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{1BB904F1-331A-4FAA-8A4B-4CFC23CB9C12}|Data Structures.vcxproj|solutionrelative:Main.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{1BB904F1-331A-4FAA-8A4B-4CFC23CB9C12}|Data Structures.vcxproj|C:\\Users\\Richard Horton\\Documents\\GitHub\\Data-Structures\\Data Structures\\MyVector.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
       "RelativeMoniker": "D:0:0:{1BB904F1-331A-4FAA-8A4B-4CFC23CB9C12}|Data Structures.vcxproj|solutionrelative:MyVector.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{1BB904F1-331A-4FAA-8A4B-4CFC23CB9C12}|Data Structures.vcxproj|C:\\Users\\Richard Horton\\Documents\\GitHub\\Data-Structures\\Data Structures\\Main.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{1BB904F1-331A-4FAA-8A4B-4CFC23CB9C12}|Data Structures.vcxproj|solutionrelative:Main.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+      "AbsoluteMoniker": "D:0:0:{1BB904F1-331A-4FAA-8A4B-4CFC23CB9C12}|Data Structures.vcxproj|C:\\Users\\Richard Horton\\Documents\\GitHub\\Data-Structures\\Data Structures\\MyVector.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{1BB904F1-331A-4FAA-8A4B-4CFC23CB9C12}|Data Structures.vcxproj|solutionrelative:MyVector.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     }
   ],
   "DocumentGroupContainers": [
@@ -22,17 +22,17 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 2,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 2,
               "Title": "MyVector.cpp",
               "DocumentMoniker": "C:\\Users\\Richard Horton\\Documents\\GitHub\\Data-Structures\\Data Structures\\MyVector.cpp",
               "RelativeDocumentMoniker": "MyVector.cpp",
               "ToolTip": "C:\\Users\\Richard Horton\\Documents\\GitHub\\Data-Structures\\Data Structures\\MyVector.cpp",
               "RelativeToolTip": "MyVector.cpp",
-              "ViewState": "AQIAABIAAAAAAAAAAAAAACYAAAANAAAA",
+              "ViewState": "AQIAAEUAAAAAAAAAAAAiwG4AAAAWAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
               "WhenOpened": "2024-05-04T20:10:31.828Z",
               "EditorCaption": ""
@@ -45,20 +45,20 @@
               "RelativeDocumentMoniker": "MyVector.h",
               "ToolTip": "C:\\Users\\Richard Horton\\Documents\\GitHub\\Data-Structures\\Data Structures\\MyVector.h",
               "RelativeToolTip": "MyVector.h",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA0AAAAQAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA0AAAAUAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
               "WhenOpened": "2024-05-04T20:09:58.663Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 0,
               "Title": "Main.cpp",
               "DocumentMoniker": "C:\\Users\\Richard Horton\\Documents\\GitHub\\Data-Structures\\Data Structures\\Main.cpp",
               "RelativeDocumentMoniker": "Main.cpp",
               "ToolTip": "C:\\Users\\Richard Horton\\Documents\\GitHub\\Data-Structures\\Data Structures\\Main.cpp",
               "RelativeToolTip": "Main.cpp",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAUAAAAeAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAUAAAAgAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
               "WhenOpened": "2024-05-03T16:20:20.233Z",
               "EditorCaption": ""
